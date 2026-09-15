@@ -6,37 +6,37 @@ import './App.css';
 const movieData = [
   { 
     id: 1, title: 'Stranger Things', type: 'series',
-    poster: '/Stranger Things.jpg', backdrop: '/bg-stranger.jpg',
+    poster: 'Stranger Things.jpg', backdrop: 'bg-stranger.jpg', // เอา / ข้างหน้าออก
     trailer: 'https://www.youtube.com/embed/b9EkMc79ZSU?autoplay=1&mute=1&controls=0&loop=1&playlist=b9EkMc79ZSU',
     description: 'เมื่อเด็กชายคนหนึ่งหายตัวไปอย่างลึกลับ เมืองเล็กๆ แห่งนี้ก็ต้องเผชิญกับความลับดำมืด การทดลองลับของรัฐบาล และพลังเหนือธรรมชาติที่หลบซ่อนอยู่ในเงามืด'
   },
   { 
     id: 2, title: 'The Last of Us', type: 'series',
-    poster: '/The Last of Us.jpg', backdrop: '/bg-lastofus.jpg',
+    poster: 'The Last of Us.jpg', backdrop: 'bg-lastofus.jpg', // เอา / ข้างหน้าออก
     trailer: 'https://www.youtube.com/embed/uLtkt8BonwM?autoplay=1&mute=1&controls=0&loop=1&playlist=uLtkt8BonwM',
     description: 'ยี่สิบปีหลังจากอารยธรรมสมัยใหม่ล่มสลาย โจเอลต้องรับภารกิจลักลอบพาเด็กสาวชื่อเอลลี่ ข้ามประเทศที่เต็มไปด้วยผู้ติดเชื้อและอันตรายเพื่อความหวังสุดท้ายของมนุษยชาติ'
   },
   { 
     id: 3, title: 'Squid Game', type: 'series',
-    poster: '/Squid Game.jpg', backdrop: '/bg-squid.jpg',
+    poster: 'Squid Game.jpg', backdrop: 'bg-squid.jpg', // เอา / ข้างหน้าออก
     trailer: 'https://www.youtube.com/embed/oqxAJKy0ii4?autoplay=1&mute=1&controls=0&loop=1&playlist=oqxAJKy0ii4',
     description: 'ผู้คนหลายร้อยคนที่สิ้นหวังและมีหนี้สินท่วมตัวตอบรับคำเชิญปริศนาเพื่อเข้าร่วมแข่งขันในเกมเด็กเล่นที่มีเงินรางวัลมหาศาล แต่เดิมพันนั้นสูงถึงชีวิต'
   },
   { 
     id: 4, title: 'Game of Thrones', type: 'series',
-    poster: '/Game of Thrones.webp', backdrop: '/bg-got.jpg',
+    poster: 'Game of Thrones.webp', backdrop: 'bg-got.jpg', // เอา / ข้างหน้าออก
     trailer: 'https://www.youtube.com/embed/KPLWWIOCOOQ?autoplay=1&mute=1&controls=0&loop=1&playlist=KPLWWIOCOOQ',
     description: 'มหากาพย์การต่อสู้แย่งชิงบัลลังก์เหล็กของเจ็ดตระกูลสูงศักดิ์แห่งเวสเทอรอส ท่ามกลางภัยคุกคามจากดินแดนเหมันต์ที่กำลังคืบคลานเข้ามา'
   },
   { 
     id: 5, title: 'Breaking Bad', type: 'series',
-    poster: '/Breaking Bad.webp', backdrop: '/bg-breakingbad.jpg',
+    poster: 'Breaking Bad.webp', backdrop: 'bg-breakingbad.jpg', // เอา / ข้างหน้าออก
     trailer: 'https://www.youtube.com/embed/HhesaQXLuRY?autoplay=1&mute=1&controls=0&loop=1&playlist=HhesaQXLuRY',
     description: 'ครูสอนเคมีมัธยมปลายที่ป่วยเป็นมะเร็งระยะสุดท้าย ตัดสินใจก้าวเข้าสู่โลกของอาชญากรรมด้วยการผลิตยาเสพติด เพื่อทิ้งมรดกทางการเงินไว้ให้ครอบครัว'
   },
   { 
     id: 6, title: 'Money Heist', type: 'series',
-    poster: '/Money Heist.webp', backdrop: '/bg-moneyheist.jpg',
+    poster: 'Money Heist.webp', backdrop: 'bg-moneyheist.jpg', // เอา / ข้างหน้าออก
     trailer: 'https://www.youtube.com/embed/_InqQJRqGW4?autoplay=1&mute=1&controls=0&loop=1&playlist=_InqQJRqGW4',
     description: 'อัจฉริยะลึกลับในนาม "ศาสตราจารย์" รวบรวมทีมโจรฝีมือดี เพื่อบุกยึดโรงกษาปณ์สเปนและพิมพ์เงินหลายพันล้านยูโรในปฏิบัติการปล้นที่โลกต้องจารึก'
   }
